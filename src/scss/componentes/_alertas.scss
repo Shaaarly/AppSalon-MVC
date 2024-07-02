@@ -1,0 +1,28 @@
+@use 'base/variables' as v;
+
+.alert {
+    padding: calc(v.$separacion / 4);
+    color: v.$blanco;
+    width: 100%;
+    display: block;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: v.$bold;
+    text-transform: uppercase;
+    transition: opacity 2s ease-out;
+    opacity: 1;
+
+    &.error {
+        background-color: v.$rojo;
+    }
+
+    &.exito {
+        background-color: v.$verde;
+    }
+
+    animation: desvanecer {}
+
+    &.fade-out {
+        opacity: 0;
+    }
+}

@@ -10,6 +10,8 @@
 
 ## Descripción
 
+Proyecto basado en arquitectura MVC utilizando mayoritariamente PHP, js, html y CSS. Aprovechando tanto node.js como GULP y SASS.
+
 Práctica aplicación para gestionar tus citas y dar un portal a tus clientes para concertarlas.
 
 ## Funcionalidades Actuales
@@ -27,13 +29,14 @@ Práctica aplicación para gestionar tus citas y dar un portal a tus clientes pa
 
    ```bash
    git clone git@github.com:Shaaarly/AppSalon.git
+   ```
+   o
+   ```bash
+   git clone https://github.com/Shaaarly/AppSalon.git
 
-2. **Abre el proyecto con tu IDE favorito:**
+3. **Abre el proyecto con tu IDE favorito:**
 
    Botón derecho en la carpeta del proyecto y dale a abrir con y elige tu IDE
-   ```bash
-   git clone [https://github.com/shaaarly/arkanoid.git](https://github.com/Shaaarly/AppSalon.git)
-
 
 ## USO
 
